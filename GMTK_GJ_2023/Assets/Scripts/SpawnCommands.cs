@@ -43,6 +43,7 @@ public class SpawnCommands : MonoBehaviour
 
         for (int i = 0; i < commands.Count; i++)
         {
+            yield return new WaitForSeconds(spawnInterval);
             if (commandCount < commandLimit)
             {
                 switch (commands[i])
@@ -63,7 +64,6 @@ public class SpawnCommands : MonoBehaviour
                 }
                 commands[i] = "idle";
                 commandCount++;
-                yield return new WaitForSeconds(spawnInterval);
             }
 
             
