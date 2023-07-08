@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8949190471871022112}
   m_Layer: 7
   m_Name: Command JumpLeft
-  m_TagString: Untagged
+  m_TagString: JumpLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.026027, y: 2.0571914}
+  m_Size: {x: 1.7, y: 1.7}
   m_EdgeRadius: 0
 --- !u!114 &-8949190471871022112
 MonoBehaviour:
