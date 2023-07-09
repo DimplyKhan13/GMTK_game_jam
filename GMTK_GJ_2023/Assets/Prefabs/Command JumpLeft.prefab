@@ -171,7 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 356fddaaead889843858e6cccf2a86f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transform: {fileID: 1606980650290402727}
   col: {fileID: 5321005016397066395}
   threadmillLayer:
     serializedVersion: 2

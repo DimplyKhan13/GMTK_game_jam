@@ -20,13 +20,27 @@ public class ChangeColour : MonoBehaviour
     {
         if (col.IsTouchingLayers(commandLayer))
         {
-            sr.color = Color.yellow;
             space.tag = command.tag;
         }
         else
         {
+            space.tag = "Empty";
+        }
+
+        if (space.tag == "Untagged")
+        {
+            sr.color = Color.red;
+        }
+        else if (space.tag == "Empty")
+        {
             sr.color = Color.blue;
         }
+        else
+        {
+            sr.color = Color.green;
+        }
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

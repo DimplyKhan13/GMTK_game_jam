@@ -8,6 +8,7 @@ TagManager:
   - JumpRight
   - Left
   - Right
+  - Empty
   layers:
   - Default
   - TransparentFX
